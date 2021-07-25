@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('./img/timer.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.timer-container {
+    display: flex;
+}
+.text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.timer-l {
+    text-align: center;
+}
+
+.timer-l span {
+    font-size: 2rem;
+}
